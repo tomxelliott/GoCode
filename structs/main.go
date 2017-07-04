@@ -48,3 +48,13 @@ func NewPerson(name string, age int) *Person {
 		Age: age,
 	}
 }
+
+
+// array function (usings slices)
+func extractNames(people []*Person) []int {
+	names := make([]int, len(people))
+	for index, peeps := range people {
+		names[index] = peeps.Name
+	}
+	return names
+}
