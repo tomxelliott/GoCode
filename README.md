@@ -1,2 +1,1 @@
-# GoLang_Code
-Trying out GoLang for size...
+####GO
